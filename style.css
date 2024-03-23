@@ -1,0 +1,134 @@
+.frem{
+  height: 20.5rem;
+  width: 20.5rem;
+  border: 8px solid deepskyblue;
+  position: relative;
+  padding: 6px;
+  border-radius: 50%;
+}
+.hour{
+  position: absolute;
+  font-size: large;
+  font-weight: bold;
+}
+.h12{
+  top: 0;
+  left: 47%;
+}
+.h1{
+  top: 6%;
+  left: 73%;
+}
+.h2{
+  top: 24%;
+  left: 90%;
+}
+.h3{
+  top: 46%;
+  left: 96%;
+}
+.h4{
+  top: 67%;
+  left: 91%;
+}
+.h5{
+  top: 86%;
+  left: 74%;
+}
+.h6{
+  top: 93%;
+  left: 49%;
+}
+.h7{
+  top: 86%;
+  left: 23%;
+}
+.h8{
+  top: 67%;
+  left: 7%;
+}
+.h9{
+  top: 46%;
+  left: 1%;
+}
+.h10{
+  top: 24%;
+  left: 7%;
+}
+.h11{
+  top: 6%;
+  left: 23%;
+}
+.point{
+  height: 17px;
+  width: 17px;
+  background-color: deepskyblue;
+  border-radius: 50%;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 1px gray;
+}
+.second-hand {
+  position: absolute;
+  z-index: 6;
+  width: 2px;
+  height: 125px;
+  background: #666;
+  top: 30px;
+  left: 50%;
+  margin-left: -2px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform-origin: 50% 129px;
+}
+.min-hand {
+  position: absolute;
+  z-index: 7;
+  width: 4px;
+  height: 103px;
+  background: #666;
+  top: 53px;
+  left: 50%;
+  margin-left: -2px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform-origin: 50% 105px;
+}
+.hour-hand {
+  position: absolute;
+  z-index: 5;
+  width: 6px;
+  height: 85px;
+  background: #333;
+  top: 73px;
+  transform-origin: 50% 83px;
+  left: 50%;
+  margin-left: -2px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.name{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-size: 1.4rem;
+  transform: translate(-50%, -50%);
+  font-family:"Libre Baskerville", serif;
+  font-weight: 500;
+  color: #378CE7;
+  text-shadow: 1px 2px 2px gray;
+}
+.digital{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  font-size: 1.4rem;
+  transform: translate(-50%, -50%);
+  font-family:"Libre Baskerville", serif;
+  font-weight: 500;
+  color: darkturquoise;
+  text-shadow: 1px 2px 2px gray;
+}
